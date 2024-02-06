@@ -1,0 +1,56 @@
+.MovieListItem{
+    padding: 35px 20px;
+    border-bottom: 1px solid #3d5a80;
+}
+.MovieListItem:last-child{
+    border-bottom: none;
+}
+.MovieListItem span{
+    line-height: 35px;
+    font-size: 21px;
+    cursor: pointer;
+    width: 550px;
+}
+.MovieListItem input{
+    line-height: 35px;
+    font-size: 21px;
+    text-align: center;
+    border: 0;
+}
+.MovieListItem button{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.MovieListItem .btn-cookie{
+    color: #ffc23e;
+}
+.MovieListItem .btn-trash{
+    color: #e5683b;
+}
+
+.MovieListItem .fa-star{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: #ffd700;
+    transition: 0.3s all;
+    transform: translateX(30px);
+    opacity: 0;
+}
+.MovieListItem.like .fa-star{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.MovieListItem.increase .list-group-item-label,
+.MovieListItem.increase .list-group-item-input{
+    color: #e09f3e;
+}
+.MovieListItem.increase .btn-star{
+    color: #aeaeae;
+}

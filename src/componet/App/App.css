@@ -1,0 +1,19 @@
+.app{
+    height: 100vh;
+    color: black;
+}
+
+.content{
+    min-width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 5rem ;
+}
+
+.serach-panel{
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 5px 15px 30px rgba(0, 0, 0,15);
+}
